@@ -93,14 +93,6 @@ ul li a:hover {
     border-radius: 10px;
 }
 
-
-
-
-/* .img {
-    border-radius: 20px;
-    box-shadow: 4px 8px 10px rgb(12, 12, 12);
-} */
-
 /* Main Content */
 .column {
     float: left;
@@ -122,57 +114,25 @@ ul li a:hover {
     background: transparent;
 }
 
-.col-one:hover {
-    background: transparent url("../img/cute0.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
-}
-
 .col-two {
     background: transparent;
-}
-
-.col-two:hover {
-    background: transparent url("../img/cute9.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
 }
 
 .col-three {
     background: transparent;
 }
 
-.col-three:hover {
-    background: transparent url("../img/cute8.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
-}
-
 .col-four {
     background: transparent;
-}
-
-.col-four:hover {
-    background: transparent url("../img/cute7.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
 }
 
 .col-five {
     background: transparent;
 }
 
-.col-five:hover {
-    background: transparent url("../img/cute13.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
-}
-
 .col-six {
     background: transparent;
 }
-
-.col-six:hover {
-    background: transparent url("../img/cute5.jpg") no-repeat center;
-    color: rgb(12, 12, 12);
-}
-
-
 
 /* Footer */
 footer {
@@ -209,11 +169,11 @@ footer {
 }
 
 .privandterm {
-	color: rgba(255, 255, 255, 0.719);
+    color: rgba(255, 255, 255, 0.719);
 }
 
 .myname {
-	font-size: larger;
+    font-size: larger;
 }
 
 /* forms */
@@ -224,11 +184,3 @@ textarea {
     box-sizing: border-box;
     border: 1px solid rgb(12, 12, 12);
 }
-
-/* .page {
-    background-color: rgb(255, 255, 255);
-    border: 1px rgb(12, 12, 12);
-    padding: 5px;
-    padding-left: 70px;
-    padding-right: 70px;
-} */
