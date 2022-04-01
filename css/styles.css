@@ -1,98 +1,22 @@
 body {
-    background-color: rgb(8, 121, 250);
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     margin: auto;
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
+    background-color: rgb(255, 255, 255);
     width: 1000px;
     margin: auto;
     padding: 15px;
-    height: 1000px;
+    height: 2230px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     line-height: -1.5;
     letter-spacing: 2px;
-}
-
-/* Hero */
-.hero {
-    background-color: transparent;
-    background: transparent;
-    height: 300px;
-    width: 1000px;
-    background-position: bottom right;
-    margin-bottom: 10px;
-}
-
-.text-back-hero {
-    background-color: rgb(255, 255, 255, 0.5);
-    padding: 12px 50px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    top: -270px;
-    left: 25px;
-    border-radius: 10px;
-}
-
-.columns {
-    float: left;
-    width: 478px;
-    height: 400px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px rgb(12, 12, 12);
-}
-
-.columns img {
-    width: 45%;
-    float: left;
-    padding-right: 10px;
-}
-
-.img {
-    border-radius: 20px;
-    box-shadow: 4px 8px 10px rgb(12, 12, 12);
-}
-
-.col-one {
-    width: 25%;
-}
-
-.col-two {
-    width: 40%;
-}
-
-.col-three {
-    width: 25%;
-}
-
-.col-four {
-    width: 25%;
-}
-
-.col-five {
-    width: 40%;
-}
-
-.col-six {
-    width: 25%;
-}
-
-.col-seven {
-    background: transparent url("/img/cute7.jpg") no-repeat center;
-}
-
-.col-eight {
-    background: transparent;
-}
-
-.col-nine {
-    width: 25%;
 }
 
 h1,
@@ -139,13 +63,115 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: rgb(8, 121, 250);
+    background-color: rgb(255, 255, 255);
 }
 
 ul li a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(210, 105, 30);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Hero */
+.hero {
+    background-color: transparent;
+    background: transparent;
+    height: 300px;
+    width: 1000px;
+    background-position: bottom right;
+    margin-bottom: 10px;
+}
+
+.text-back-hero {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 12px 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -270px;
+    left: 25px;
+    border-radius: 10px;
+}
+
+
+
+
+/* .img {
+    border-radius: 20px;
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+} */
+
+/* Main Content */
+.column {
+    float: left;
+    width: 478px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid rgb(12, 12, 12);
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.column img {
+    width: 45%;
+    float: left;
+    padding-left: 10px;
+}
+
+.col-one {
+    background: transparent;
+}
+
+.col-one:hover {
+    background: transparent url("../img/cute0.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-two {
+    background: transparent;
+}
+
+.col-two:hover {
+    background: transparent url("../img/cute9.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-three {
+    background: transparent;
+}
+
+.col-three:hover {
+    background: transparent url("../img/cute8.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-four {
+    background: transparent;
+}
+
+.col-four:hover {
+    background: transparent url("../img/cute7.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-five {
+    background: transparent;
+}
+
+.col-five:hover {
+    background: transparent url("../img/cute13.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
+.col-six {
+    background: transparent;
+}
+
+.col-six:hover {
+    background: transparent url("../img/cute5.jpg") no-repeat center;
+    color: rgb(12, 12, 12);
+}
+
 
 
 /* Footer */
@@ -162,15 +188,47 @@ footer {
 }
 
 /* icons */
-.fa-heart {
+.fa-dog {
     color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+    color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+    color: rgb(255, 255, 255);
+}
+
+.fa-snapchat {
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+    color: rgb(255, 255, 255);
+}
+
+.privandterm {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.myname {
+	font-size: larger;
 }
 
 /* forms */
 input[type=text] input[type=email],
 textarea {
-    width: 50%;
+    width: 80%;
     padding: 12px;
     box-sizing: border-box;
     border: 1px solid rgb(12, 12, 12);
 }
+
+/* .page {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(12, 12, 12);
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+} */
